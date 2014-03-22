@@ -1,8 +1,11 @@
 {
+  "manifest_version": 2,
   "name" : "Webcomic Browser with Arrow Key Navigation",
   "version" : "1.4.1",
   "description" : "Enables left/right arrow keys for paging through comics. Works automatically for pages that use \"next\" or \"previous\" relations.",
-  "background_page" : "background.html",
+  "background" : {
+	"scripts" : ["background.js"]
+  },
   "options_page": "options.html",
   "page_action" :
   {
@@ -15,7 +18,12 @@
         "http://*/*",
         "https://*/*"
       ],
-      "js" : ["link_finders.js", "website_overrides.js", "contentscript.js"],
+      "js" : [
+	"background.js",
+      	"link_finders.js",
+       	"website_overrides.js",
+       	"contentscript.js"
+      ],
       "run_at" : "document_idle",
       "all_frames" : false
     }

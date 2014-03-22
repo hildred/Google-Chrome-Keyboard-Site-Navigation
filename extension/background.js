@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-
-<html>
-  <head>
-    <script>
       // Called when a message is passed.  We assume that the content script
       // wants to show the page action.
       function onRequest(request, sender, sendResponse) {
@@ -35,6 +30,3 @@
 
       // Listen for the content script to send a message to the background page.
       chrome.extension.onRequest.addListener(onRequest);
-    </script>
-  </head>
-</html>
