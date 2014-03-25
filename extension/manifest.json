@@ -22,6 +22,7 @@
 	"background.js",
       	"link_finders.js",
        	"website_overrides.js",
+	"options.js",
        	"contentscript.js"
       ],
       "run_at" : "document_idle",
