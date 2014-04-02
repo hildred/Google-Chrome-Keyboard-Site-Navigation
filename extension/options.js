@@ -7,7 +7,7 @@ var inherently_supported_comics = [
 	"http://kinokofry.com/", "http://www.lovemenicecomic.com/", "http://www.pvponline.com/", "http://realcanesugar.cc/", "https://quincyquarks.wordpress.com/", "http://templaraz.com/", "http://www.abominable.cc/",
 	"http://www.dharbin.com/", "http://www.intrepidgirlbot.com/2009/03/06/pretty-people-processor/", "http://www.agreeablecomics.com/loneliestastronauts/", "http://threepanelsoul.com/",
 	"http://www.tinykittenteeth.com/2009/01/26/gene-kelly/", "http://wondermark.com/", "http://www.sintitulocomic.com/", "http://kafkaskoffee.com/", "http://amultiverse.com/", "http://mgleim.com/apology/",
-	"http://www.bladediary.com/", "http://amultiverse.com/", "http://nonadventures.com/"
+	"http://www.bladediary.com/", "http://amultiverse.com/", "http://nonadventures.com/", "http://www.dumbingofage.com/", "http://hijinksensue.com/", "http://www.johnhartstudios.com/wizardofid/"
 ];
 
 // Saves options to localStorage.

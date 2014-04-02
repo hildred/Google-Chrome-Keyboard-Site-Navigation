@@ -38,6 +38,7 @@ var manual_site_overrides = {
 	"everythingdiescomic.com": new TextLinkFinder("« PREV", "NEXT »"),
 	"questionablecontent.net": new TextLinkFinder("Previous", "Next"),
 	"sorcery101.net": new TextLinkFinder("‹ Previous", "Next ›"),	// Contains rel tags, but functions differently than explicit buttons
+	//"": new TextLinkFinder("", ""),
  
 	"samandfuzzy.com": new ImageLinkFinder("imgint/nav_prev.gif", "imgint/nav_next.gif"),
 	"whiteninjacomics.com": new ImageLinkFinder("/images/previous.jpg", "/images/next.jpg"),
@@ -70,12 +71,22 @@ var manual_site_overrides = {
 	"corpseruncomics.com": new ImageLinkFinder("../../buttons/navprevious_norm.png", "../../buttons/navnext_norm.png"),
 	"giantitp.com": new ImageLinkFinder("/Images/redesign/ComicNav_Back.gif", "/Images/redesign/ComicNav_Next.gif"),
 	"reallifecomics.com": new ImageLinkFinder("/images/nav_prev.png", "/images/nav_next.png"),
+	"agirlandherfed.com": new ImageLinkFinder("template/agahf/res/img/nav/back.png", "template/agahf/res/img/nav/next.png"),
+	"athenawheatley.com": new ImageLinkFinder("/nav/prev.png", "/nav/next.png"),
+	"girlgeniusonline.com": new ImageLinkFinder("http://www.girlgeniusonline.com/!.images.page/navbuttons/previousday.jpg", "http://www.girlgeniusonline.com/!.images.page/navbuttons/nextday.jpg"),
+	"carol.troutcave.net": new ImageLinkFinder("images/nav_2_previous.png", "images/nav_3_next.png"),
+	//"": new ImageLinkFinder("", ""),
 
 	"smbc-comics.com": new ImageMapLinkFinder("131,13,216,84", "351,21,425,87"),
+	"ars.userfriendly.org": new ImageMapLinkFinder("32,0 88,25", "281,0 342,25"),
+	//"": new ImageMapLinkFinder("", ""),
 
 	"oglaf.com": new HtmlLinkFinder('<div id="pvs" class="nav_ro">', '<div id="nx" class="nav_ro">'),
 	"lefthandedtoons.com": new HtmlLinkFinder('<span class="allthewayleft">Previous Comic</span>', '<span class="allthewayleft">Next Comic</span>'),
 	"deadwinter.cc": new HtmlLinkFinder("<span>Previous</span>", "<span>Next</span>"),
 	"sluggy.com": new HtmlLinkFinder('<span class="ui-icon ui-icon-seek-prev"></span>Prev.', '<span class="ui-icon ui-icon-seek-next"></span>Next'),
 	"pinksnowbunny.com": new HtmlLinkFinder(" &nbsp;&lt;&nbsp;prev&nbsp; ", " &nbsp;next&nbsp;&gt;&nbsp; "),
+	"kevinandkell.com": new HtmlLinkFinder("<span>Previous Strip</span>", "<span>Next Strip</span>"),
+	"dilbert.com": new HtmlLinkFinder("<span>Previous</span>", "<span>Next</span>"),
+	//"": new HtmlLinkFinder("", ""),
 }

@@ -50,6 +50,9 @@ INHERENTLY SUPPORTED WEBCOMICS (using the "rel" attribute):
 * http://mgleim.com/apology/
 * http://www.bladediary.com/
 * http://amultiverse.com/
+* http://www.dumbingofage.com/
+* http://hijinksensue.com/
+* http://www.johnhartstudios.com/wizardofid/
 * http://nonadventures.com/ (kind of broken)
 
 MANUALLY SUPPORTED WEBCOMICS:
@@ -119,6 +122,13 @@ MANUALLY SUPPORTED WEBCOMICS:
 * http://corpseruncomics.com/
 * http://reallifecomics.com/
 * http://www.giantitp.com/
+* http://agirlandherfed.com/
+* http://athenawheatley.com/
+* http://girlgeniusonline.com/
+* http://carol.troutcave.net/
+* http://ars.userfriendly.org/
+* http://kevinandkell.com/
+* http://dilbert.com/
 
 UNSUPPORTED WEBCOMICS:
 =================================================
